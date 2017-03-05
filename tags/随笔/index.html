@@ -10,7 +10,7 @@
     
     <title>
         
-            捐助 Donation | 
+            Tag: 随笔 | 
         
         哲王的小站
     </title>
@@ -48,7 +48,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="捐助 Donation | 哲王的小站">
+    <meta property="og:title" content="Tag: 随笔 | 哲王的小站">
     <meta property="og:description" content="null">
 
     <!--[if lte IE 9]>
@@ -200,204 +200,88 @@
                         </button>
                     
 
-                    <!-- Post TOC -->
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
 
-
-<!-- Layouts -->
-
-    <!-- Post Module -->
-    <div class="material-post_container">
-
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
+    
+        
+            <!-- Paradox Thumbnail -->
+            <div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script>
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+        
+    
 
-    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2017/03/03/在硅谷，大学生涯最后的两个月/">在硅谷，大学生涯最后两月</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            今天提起笔，想写些什么。只是很久没有看书，没有接触文字，怕是自己已经写不好了。
+来美国留学的日子快要结束了。初来乍到的那一天，就像是昨...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2017/03/03/在硅谷，大学生涯最后的两个月/" target="_self">Continue Reading</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="哲的王's avatar">
+            </div>
+            <div>
+                <strong>哲的王</strong>
+                <span>Mar 03, 2017</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                
+            </span>
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+        
+        
+    
+
+    
+
+    
+        <script>
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 19 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')')
+
+        locatePost = locatePost.next();
+    }
 </script>
 
-        
-    
-            <p class="article-headline-p">
-                捐助 Donation
-            </p>
-        </div>
-
-
-
-
-
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>哲的王</strong>
-        <span>Feb 21, 2017</span>
-    </div>
-
-    <div class="section-spacer"></div>
-
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
-
-    <!-- Qrcode -->
-    
-        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">devices other</i>
-            <span class="visuallyhidden">devices other</span>
-        </button>
-        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
-            <li class="mdl-menu__item">Read this article on other device</li>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAAB5UlEQVR42u3aW1bDMAwFwO5/07AAaLiSHCD2+Kun0NTzo+r1+tjivDAwMDAwMDAw/g3jFZ+vn/rm0W/+8/qZzTtgYGAcxvghtF0y8mtdP6F8BwwMjCMZ1wExf53zenfAwMDAyL/m3TvX4TIP3xgYGBh3MOZXxMDAwJgXsdU2Wa9Jd3stjoGB8UBGfqH7Xv/qfAMDA+NRjPKKQ5AmJsVtEmRv3BnBwMB4FCMPfL2hZt6MK38KAwPjGEa14ZWXpsloM796lBpiYGBszagGzVW8PLwWMlwMDIztGPOlimQhLBl2JkknBgYGRjV1q5ap+SBzVItjYGBsx5isVqxNIvNxKQYGxmmMXho3Sf7yEWb5dwMDA2NrxqqGfnVptTocxcDAOJMxabTlZeraRhsGBsZpjDxcVv/aC9ZJQYuBgXEmozfO7LXtqqnngmULDAyMjRi9RlvejMtbdbcsW2BgYGzEyANxcvKRZ3WZAwMD4xxG9VRTurwoTZAYGBhnMiaDyd6KWL46NhoMYGBgbMeYNM6qg89eiYuBgYFRDYhVwKolMwwMDIxVjOp1myMKDAwMjLjI7K2U5U8rjzAxMDC2ZuTDgHxsOV87w8DAwKgWk/mooArIF8IwMDBOYzz3YGBgYGBgYGD86fkEnzQ6t8xS+9sAAAAASUVORK5CYII=">
-        </ul>
-    
-
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
-        
-    </ul>
-    
-
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-    <!-- Leancloud Views -->
-        <a class="post_share-link" href="#">
-            <li class="mdl-menu__item">
-                <span id="/donate/index.html" class="leancloud-views_num" data-flag-title="捐助 Donation">
-     &nbsp;Views
-</span>
-
-            </li>
-        </a>
-    
-
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=捐助 Donation&url=http://yoursite.com//donate/index.html&pic=&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                Share to Weibo
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=捐助 Donation&url=http://yoursite.com//donate/index.html&via=哲的王" target="_blank">
-            <li class="mdl-menu__item">
-                Share to Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//donate/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                Share to Facebook
-            </li>
-        </a>
-    
-
-    <!-- Share Google+ -->
-    
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//donate/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                Share to Google+
-            </li>
-        </a>
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-
-    <!-- Share Telegram -->
-    
-</ul>
-
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <h4 id="为什么捐助"><a href="#为什么捐助" class="headerlink" title="为什么捐助"></a>为什么捐助</h4><p>在开源社区中，捐助是用户支持开发者与贡献者的一种方法。开发者们不在产品中插入广告或者其他无关的东西，仅仅通过用户的主动捐助来获得收入支持。</p>
-<p>虽然我制作的教程不是开源软件，但是开放的学习资料也是非常有价值的。好的学习资料才可以推动整个社区的进步。这也是我用心制作教程的原因。</p>
-<p>如果你觉得我制作的教程对你有帮助的话，可以对我进行捐助以表示感谢。</p>
-<p>我制作教程是自愿的。但是制作教程本身也要耗费极大功夫。包括教程内容的准备（备课）、文档与代码的书写、视频的制作等。</p>
-<p>你的感谢对我意义非凡，既是对我之前工作的肯定，也是激励我继续制作教程的动力。</p>
-<h4 id="捐助之前需要知道的"><a href="#捐助之前需要知道的" class="headerlink" title="捐助之前需要知道的"></a>捐助之前需要知道的</h4><p>就像我制作教程是无偿的一样，你的捐助也是无偿的。</p>
-<p>捐助只代表对我之前工作的感谢，而不是对未来工作的期望。我接受了你的捐助之后，可以也可以不将其用于后续教程的制作。</p>
-<h4 id="捐助的途径"><a href="#捐助的途径" class="headerlink" title="捐助的途径"></a>捐助的途径</h4><h5 id="支付宝"><a href="#支付宝" class="headerlink" title="支付宝"></a>支付宝</h5><p><img src="/images/alipay.png" width="280"></p>
-<h5 id="微信"><a href="#微信" class="headerlink" title="微信"></a>微信</h5><p><img src="/images/WeChat.png" width="280"></p>
-
-    
-
     
 </div>
-
-
-                
-
-                <!-- Post Comments -->
-                
-                    
-
-
-
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-</nav>
-
-        </div>
-    </div>
-
 
 
                     
