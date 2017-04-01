@@ -10,7 +10,7 @@
     
     <title>
         
-            在硅谷，大学生涯最后两月 | 
+            velodyne | 
         
         哲王的小站
     </title>
@@ -48,7 +48,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="在硅谷，大学生涯最后两月 | 哲王的小站">
+    <meta property="og:title" content="velodyne | 哲王的小站">
     <meta property="og:description" content="null">
 
     <!--[if lte IE 9]>
@@ -226,7 +226,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#硅谷之两月"><span class="post-toc-number">1.</span> <span class="post-toc-text">硅谷之两月</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#要回到麻省了"><span class="post-toc-number">2.</span> <span class="post-toc-text">要回到麻省了</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#kitti-Velodyne-激光雷达数据的读取"><span class="post-toc-number">1.</span> <span class="post-toc-text">kitti Velodyne 激光雷达数据的读取</span></a></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -262,7 +262,7 @@
         
     
             <p class="article-headline-p">
-                在硅谷，大学生涯最后两月
+                velodyne
             </p>
         </div>
 
@@ -281,7 +281,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>哲的王</strong>
-        <span>Mar 03, 2017</span>
+        <span>Apr 01, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -302,7 +302,7 @@
         </button>
         <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
             <li class="mdl-menu__item">Read this article on other device</li>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC1UlEQVR42u3aQW7DMAwEwPz/0+21QBFnl0pRRxqfAqO2NTqUIFePryOvBzY2NjY2NjY2NvYt2Y/4+v33P+88+/3sPdfPPnvDbM3Y2NjYJ7Bf/OsPFpS/p15ucCdaMzY2NvYB7OuCkbz6GbItS9fvma0ZGxsbGzunJmUvgeXrwcbGxsZu2Un7sT5+ykdR2NjY2Nj5gCb6QNnGtIOkf5ilYWNjY9+e3Qa9d/j9D/k2NjY29i3Z7dUesmkP68wi5Gjl2NjY2Juy81YhX1DeWuQx8Mq2YmNjY+/NbkdFK0XlepvyDZ1F0djY2NjnsNvjj3mJygPjNh6IgmdsbGzsTdl5O5GXkNnWrB/WLAoYNjY29tbslbakHfTPDvcMB1LY2NjYx7Bn1Fm5ml1tE4KNjY19DntWKtYD2pVvFcUSGxsbe1N2Pk5KnloZA+VDonachI2NjX0C+7oAtI3HSsSbF62kNGJjY2OfwE4eqD8QvC2nJoV2GPRiY2Njb8puh035U3nE24bN0bZiY2NjH8nOY+BZVJw3MPka3lDAsLGxsT+QnTcbbUOSD55W4oc6HsDGxsbelL1yv40c8lCh3VxsbGzs09izGGD9kE0LXgmnsbGxsc9hz1qLdsA028T2KgoYNjY29oezk5ZjtqAkuM0D3XwrsbGxsc9kz9qAthC2sW5RnJIiio2Njb0puz1q0yKTRbcrSQotNjY29snspCzl45520W1Jy/HY2NjYu7JXYt02jm2jhTYMeLHp2NjY2Juy18vYSrjbbv0sxsDGxsbemz0rEvmAvlhWuU1JccXGxsY+h70SGLSNyuxYZx5OLJ1UwsbGxv5w9nuP2rQFZhYbF2/GxsbGxl4IFfKS9t5vYWNjY2O3A6MZctbq5IMtbGxs7HPY+VApGQDNWo48VK43BRsbG3tr9nr5aYvQLPrNjxP9Yb6NjY2NfTP2ORc2NjY2NjY2Njb2ba5vp5sVRznK9QkAAAAASUVORK5CYII=">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACXUlEQVR42u3aS27jQAwFQN//0pkDBNG8x/7YCapXhiAJXVqQbZKvrz+9Xnh4eHh4eHh4eB/Ge8Xr+1PP7/np/udnN+wNDw8P7wrvP6E2xjxfT968YW94eHh4F3nJ5lpqy97wBjw8PLyP5M3uSZLNyt7w8PDwPpkXlVNHADw8PLzfxUs22vL2Jo/jtRY8PDy8mJc3me7/vtrfw8PDwwt49UjTY9MrGQVoQ3+9Qzw8PLzDvDwQtwfuXQmm3g8eHh7eRd5zWG+Dfl4+eIblBQ48PDy8O7xZEI+KAqNk0DbDon8MeHh4eFt5+fhpngZWxluTj4WHh4f3Xl5eVsgPxHkJeP1z4OHh4X0Cry1GrKSWEwdrPDw8vNO8pAyRFCbyo/bs/UvFCDw8PLwDvPzofOKInKeEDZMReHh4eFt5s/Cdjwskm6vbXeuTEXh4eHgLvNkoVdswKzY6+tB4eHh4p3n566LjbDlWNWt3LY0O4OHh4S3z2lLC7Cich/h2JGv4jwEPDw9vEy8P3y1sZSBgaegKDw8P7wqvCMGj+2eNtOIKHh4e3pt4eWJIPtDKG+pyMB4eHt51XtFqKhNDUjJOPtOGYgQeHh7eAV47QLCSJF7xivaAh4eHd5jXrpUhrbYlNjx24+Hh4R3mzYJy2xKbpY1tQ1d4eHh4B3jryWDW7rqUGPDw8PCO8VYCdLLRvK2Vpw08PDy838ub4WfX35AY8PDw8A7zkuN12wYrisV4eHh4F3mzgmz7bFJQaMF4eHh493ltCaBtYs2GrvJ0hYeHh3eT9/cWHh4eHh4eHh7eB6x/6XV8uLGzU+8AAAAASUVORK5CYII=">
         </ul>
     
 
@@ -314,7 +314,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/随笔/">随笔</a>
+        <a class="post_tag-link" href="/tags/kitti/">kitti</a>
     </ul>
     
 
@@ -328,7 +328,7 @@
     <!-- Leancloud Views -->
         <a class="post_share-link" href="#">
             <li class="mdl-menu__item">
-                <span id="/2017/03/03/在硅谷，大学生涯最后的两个月/" class="leancloud-views_num" data-flag-title="在硅谷，大学生涯最后两月">
+                <span id="/2017/04/01/velodyne/" class="leancloud-views_num" data-flag-title="velodyne">
      &nbsp;Views
 </span>
 
@@ -340,7 +340,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=在硅谷，大学生涯最后两月&url=http://yoursite.com//2017/03/03/在硅谷，大学生涯最后的两个月/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=velodyne&url=http://yoursite.com//2017/04/01/velodyne/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -349,7 +349,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=在硅谷，大学生涯最后两月&url=http://yoursite.com//2017/03/03/在硅谷，大学生涯最后的两个月/index.html&via=哲的王" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=velodyne&url=http://yoursite.com//2017/04/01/velodyne/index.html&via=哲的王" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -358,7 +358,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/03/03/在硅谷，大学生涯最后的两个月/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/04/01/velodyne/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Facebook
             </li>
@@ -367,7 +367,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2017/03/03/在硅谷，大学生涯最后的两个月/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2017/04/01/velodyne/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Google+
             </li>
@@ -391,19 +391,11 @@
                 <!-- Post Content -->
                 <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>今天提起笔，想写些什么。只是很久没有看书，没有接触文字，怕是自己已经写不好了。</p>
-<p>来美国留学的日子快要结束了。初来乍到的那一天，就像是昨天。大学生涯没有轰轰烈烈的潇洒，所以似乎也不是很酷。虽然总觉得少了些什么，但是毕业也总是要到来。所以whatever。</p>
-<h3 id="硅谷之两月"><a href="#硅谷之两月" class="headerlink" title="硅谷之两月"></a>硅谷之两月</h3><p>因为毕业项目的缘故，我来到了硅谷 —— 传说中的科技圣地。奇怪的是，硅谷没有想象中的那么高大上。空气中没有科技的味道，道路也不过就是干净宽大的道路。这让我知道硅谷不活在未来，只是活在比较好的现在。天气也不走运，下了两个月的雨。本来是想来湾区躲过麻省的寒冬，结果今年是湾区十年来最冷的一年。完全让我兴奋不起来。</p>
-<p>我们学校的每个本科生，除了完成要求的课程，都需要完成一个毕业项目才可以毕业。一般学生会选在在大三或者大四完成。除了在校内跟着教授做项目以外，也可以选择在校外做项目。美国国内的项目中心有硅谷、华尔街等地。全球的有英国伦敦、日本大阪大学、中国北京、中国香港、新西兰、非洲等好多其他地方。总之，我校有数百个项目中心遍布全球。</p>
-<p>因为我是计算机专业的学生，所以我选择了计算机工业的圣地硅谷。校外项目也是需要申请报名的。我提前一年在大三时申请。当时有30来个人申请吧。经过教授面试之后10来个人被录取了。所以我还是很兴奋的。</p>
-<p>每年硅谷项目中心的合作公司不一定。今年有4家公司可以选择。其中最出名的可能是英伟达了。这是世界顶级的显卡与其他芯片制造商。另外三家是QT、Endicia和Juniper。如果你是GUI开发者的话，可能也听说过QT —— 一个跨平台的GUI框架。</p>
-<p>我一开始是最想去 NVidia 的。因为我对GPU以及并行计算很感兴趣。并且我这一年来一直在做机器学习，特别是这半年来在做深度学习。英伟达2016年也宣布了他们的深度学习战略。所以在这个时候加入英伟达也是令人激动的。</p>
-<p>然而，在选公司的时候，教授告诉我们英伟达的项目是做一个Web端的芯片调试工具。我一下就对这个项目不感兴趣了。Juniper的项目反倒是和机器学习有关，所以我就选择的Juniper。Juniper好歹也是100亿美元的公司，想必还是不错的。</p>
-<p>结果到了公司以后才发现根本没有团队与我们对接。两个月的项目，又因为他们的效率低下，要办各种手续，耽误了我们一个月的时间。如果说这是大公司的毛病的话，这个借口也是完全站不住脚的。英伟达是价值500亿美元的公司，效率却比他们不知道高了多少。</p>
-<p>总之，一个月之后我们算是正式开始了。结果这个项目对于我来说根本没有很大价值。因为我已经学习了机器学习一年了。这个项目对于我来说就是复习、做做巩固一样。虽然我确实巩固加深了我机器学习的技能，但是始终让我失望。当然，当人问我从项目中学到了什么，我当然不会说这项目就是个笑话。我还是说我学到了很多现实世界的知识应用。哈哈哈哈。</p>
-<p>好在我的队友战斗力都比较高，所以在没有任何专业团队支持的情况下，整个项目我们也是用一半的时间顺利完成了。没办法，我校可是美国顶级学府（我就装个B，其实我校只能算一流，不能算顶级）。</p>
-<p>总之，这就是我大学生涯的最后学习历程。</p>
-<h3 id="要回到麻省了"><a href="#要回到麻省了" class="headerlink" title="要回到麻省了"></a>要回到麻省了</h3><p>我还会再硅谷呆一阵。8号会参加Udaicty的Interset2017。不知道会有什么精彩的事情。之后就会回到麻省了。未来，你又要来了。</p>
+        <h1 id="kitti-Velodyne-激光雷达数据的读取"><a href="#kitti-Velodyne-激光雷达数据的读取" class="headerlink" title="kitti Velodyne 激光雷达数据的读取"></a>kitti Velodyne 激光雷达数据的读取</h1><p>最近因为某种原因，要使用kitti数据集中的激光雷达数据。可是官方给的开发包里Matlab脚本倒是多，Python的就不行了。根据文档介绍，只好自己写Python脚本来读取数据了。</p>
+<p>其实读取起来也非常简单。数据结构在一个Readme里面介绍了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">Velodyne 3D laser scan data</div><div class="line">===========================</div><div class="line"></div><div class="line">The velodyne point clouds are stored in the folder &apos;velodyne_points&apos;. To</div><div class="line">save space, all scans have been stored as Nx4 float matrix into a binary</div><div class="line">file using the following code:</div><div class="line"></div><div class="line">  stream = fopen (dst_file.c_str(),&quot;wb&quot;);</div><div class="line">  fwrite(data,sizeof(float),4*num,stream);</div><div class="line">  fclose(stream);</div><div class="line"></div><div class="line">Here, data contains 4*num values, where the first 3 values correspond to</div><div class="line">x,y and z, and the last value is the reflectance information. All scans</div><div class="line">are stored row-aligned, meaning that the first 4 values correspond to the</div><div class="line">first measurement. Since each scan might potentially have a different</div><div class="line">number of points, this must be determined from the file size when reading</div><div class="line">the file.</div></pre></td></tr></table></figure></p>
+<p>所以，按照这个方式写一个Python版本就行了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">def read_velodyne_data(file_path):</div><div class="line">	&quot;&quot;&quot;</div><div class="line">	Read velodyne binary data and return a numpy array</div><div class="line">	&quot;&quot;&quot;</div><div class="line"></div><div class="line">	# First, check the size of this file to see if it&apos;s a valid velodyne binary file</div><div class="line">	size = os.stat(file_path).st_size</div><div class="line">	if size % 16 != 0:</div><div class="line">		raise Exception(&apos;The size of &apos;+file_path+&apos; is not dividible by 16 bytes&apos;)</div><div class="line"></div><div class="line">	with open(&apos;data_object_velodyne/testing/velodyne/000000.bin&apos;, &apos;rb&apos;) as f:</div><div class="line">		# Allocate memory for numpy array</div><div class="line">		velodyne_data = np.empty(shape=(size//16, 4), dtype=np.float32)</div><div class="line">		</div><div class="line">		# Read the data, 16 bytes each time</div><div class="line">		i = 0; reader = BufferedReader(f)</div><div class="line">		while reader.peek(16):</div><div class="line">			read_bytes = reader.read(16)</div><div class="line">			velodyne_data[0] = np.frombuffer(read_bytes, dtype=np.float32)</div><div class="line">			i += 1</div><div class="line">		</div><div class="line">		# Check whether correct amount of bytes were read</div><div class="line">		if i != size/16:</div><div class="line">			error = &apos; &apos;.join([</div><div class="line">				&apos;The file size is&apos;, str(size), </div><div class="line">				&apos;, but&apos;, str(i), &apos;bytes were read&apos;])</div><div class="line">			raise Exception(error)</div><div class="line"></div><div class="line">		return velodyne_data</div></pre></td></tr></table></figure></p>
+<p>这样就返回了一个Numpy Array。</p>
+<p>下面一步是要把极坐标的数据转化为笛卡尔坐标。并且，似乎要补上没有数据的点。还不是很懂。</p>
 
     
 
@@ -426,21 +418,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/04/01/velodyne/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/02/21/TensorFlow-Deep-Learning-Tutorial/" id="post_nav-older" class="next-content">
+        <a href="/2017/03/03/在硅谷，大学生涯最后的两个月/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
