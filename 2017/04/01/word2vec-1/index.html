@@ -10,7 +10,7 @@
     
     <title>
         
-            欢迎来到我的小站 Welcome to My Little Site | 
+            word2vec 1 | 
         
         哲王的小站
     </title>
@@ -48,7 +48,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="欢迎来到我的小站 Welcome to My Little Site | 哲王的小站">
+    <meta property="og:title" content="word2vec 1 | 哲王的小站">
     <meta property="og:description" content="null">
 
     <!--[if lte IE 9]>
@@ -226,7 +226,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Hellow-World-Wide-Web！"><span class="post-toc-number">1.</span> <span class="post-toc-text">Hellow, World Wide Web！</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#word2vec，初来乍到，先谈自然语言"><span class="post-toc-number">1.</span> <span class="post-toc-text">word2vec，初来乍到，先谈自然语言</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#自然语言处理"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">自然语言处理</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#一个是概率式的模型"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">一个是概率式的模型</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#逻辑式模型，或者说集合式模型"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">逻辑式模型，或者说集合式模型</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#用学外语做个比方"><span class="post-toc-number">1.1.3.</span> <span class="post-toc-text">用学外语做个比方</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#word2vec-是一种概率模型"><span class="post-toc-number">1.1.4.</span> <span class="post-toc-text">word2vec 是一种概率模型</span></a></li></ol></li></ol></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -262,7 +262,7 @@
         
     
             <p class="article-headline-p">
-                欢迎来到我的小站 Welcome to My Little Site
+                word2vec 1
             </p>
         </div>
 
@@ -281,7 +281,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>哲的王</strong>
-        <span>Feb 21, 2017</span>
+        <span>Apr 01, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -302,7 +302,7 @@
         </button>
         <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
             <li class="mdl-menu__item">Read this article on other device</li>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAEOCAAAAABd2qZ5AAADiElEQVR42u3awXKjMBAEUP//T2+uW+UYd48kwuFxclWCgMehmdG8/jn+O14IcODAgQMHDhw4cOB4MMcrPn5Z6MP/fPr9fu77OslVrq/bPgsOHDhw4DjB8SWK3pe4JLh+7JwsuVa+zsdnwYEDBw4cxzjy4Gz/M7mtlfuZnYsDBw4cOJ7DkUdpW2LlMdm+Nhw4cODA8WSO6DJlxM5wV54FBw4cOHCc5mjjrdjaGcXtCsdNvVIcOHDgwLE80PD837fOd+DAgQMHjjeO9pi152Zjdsk66wcOHDhw4NjLkQdV3vi73nBKHruN/Pb+ceDAgQPHaY58ifVxhHxUIjk3h9tQ0eLAgQMHjpIjL8PWhx6iCBxFfv1xgAMHDhw4tnLkgZeXTPnD5CGa31sd/zhw4MCB4xhH8sA5RAudbyytFI04cODAgeMejnZ8oYVbLw7X24I4cODAgeMejqSVtqsJ2N7uLHrbMhIHDhw4cJzgaG+ibfwlt96Wf7PRChw4cODAcZpjtv0zK/ySF3CuUIyCFgcOHDhwHONoaVaG52alXbv1hQMHDhw47uRY2ebJ43Y2QjFrICYBjwMHDhw47uFot3lWYjhpEeaF2fAF4MCBAweOrRxt1LVlXhvGbRuxLfm+BC0OHDhw4FjmSIKw3fhpt3+SQmv9hdXfHThw4MCBY8SRNN1W4nM29JaflX80fLxbHDhw4MBxjCPffGoJ2uGJtoHY/saBAwcOHOc4ZiVWzlSPF2xFjwIbBw4cOHBs5ZgNsbXxlvy1HUdY2RLDgQMHDhynOXY17HY1E2eFXB69OHDgwIHjbznakuxEo3C9pVj0SnHgwIEDxyaO9WGC2cjdeqGYNyVx4MCBA8edHPkSewuwGe7KQB4OHDhw4DjNMdsQyouu5Ny8/dfSf1kfBw4cOHAc42iLn70bTnnczlb7eBUcOHDgwHGMY73ldx2ou7adkqguXgkOHDhw4NjK0R6zAN4b4e2HwpdXjgMHDhw4tnLMgqptEbZl1azIvA744agcDhw4cOAYcaw33a6LwJYg2i5aGBPHgQMHDhz3cKwPMSRRlzT4ZijXq+HAgQMHjidzzDau8gifEbRhjwMHDhw4nsMxG4DLi662bJuNMuDAgQMHjtMc7cZPTpA37GaR/GfbTjhw4MCBY3mgIS+6Vga429GKGQQOHDhw4DjB4cCBAwcOHDhw4MCBA8fDjh9F9K8oNnaiOQAAAABJRU5ErkJggg==">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACZElEQVR42u3aSW7DMBAEQP//08nVQGC5m5uXlE6GoUgsHziTHt5+vvq64eHh4eHh4eHhvRnvFl8PHxfcf//N38/Xf9WuDQ8PD+8M78lWe/ni6wVdv+X65xtcGx4eHt5BXrK46/vbAjBfQvDw8PA+i5c32WP34+Hh4f0fXrLpJ0/Gw8PDe39estAiTo0b6PkihIeHh3eelw+Zzn8+Ot/Dw8PDC3j1kaYyXEgKTNusF4eu8PDw8Dbw1rbL7baeBA31ITA8PDy8zbxlEcBQvJs008k/AHh4eHgnefmW3R4RGDsK0EbJUd3Dw8PDW8orNtwYnw+9Ztruuu7h4eHhLeK1r89D25l4Nyk/eHh4eK/l5QcFkhgiLzDJnXUrj4eHh3eQtzakyAOF9jlP3oKHh4d3hNc2vvkwrN3c59t3PDw8vDO8JDDd12SPHSN4+C48PDy8zbx2EfnWP1Yq2pEbHh4e3qt47ai+jSraxn2sIOHh4eGd4eWLbgPWsZ9gwdgMDw8PbzOvfVm7xDwOboOMxXUPDw8Pb3q23g772zY6ee/gW/Dw8PAO8uYHV3l5mHlCHUbg4eHhbebly2pjgnyLn4pC8PDw8A7y2qUkG3deWsbGbHh4eHjnee3VNsdtGJEUg3oAhoeHh7eU127HyVAqD2rbYdtgGIGHh4e3gZcXg6SpfdLyjoWzM4UBDw8PbxuvPWjVhgU7no+Hh4f3KbxVg//2+0OFAQ8PD29zYcjb6B1HEKZORuDh4eFN8/aNtfJDCTkbDw8P77W8VRHD2OLGGugt8z08PDy8gPd9Fx4eHh4eHh4e3htcv34fH+vfAcRfAAAAAElFTkSuQmCC">
         </ul>
     
 
@@ -314,7 +314,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/教程/">教程</a>
     </ul>
     
 
@@ -328,7 +328,7 @@
     <!-- Leancloud Views -->
         <a class="post_share-link" href="#">
             <li class="mdl-menu__item">
-                <span id="/2017/02/21/欢迎来到我的小站-Welcome-to-My-Little-Site/" class="leancloud-views_num" data-flag-title="欢迎来到我的小站 Welcome to My Little Site">
+                <span id="/2017/04/01/word2vec-1/" class="leancloud-views_num" data-flag-title="word2vec 1">
      &nbsp;Views
 </span>
 
@@ -340,7 +340,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=欢迎来到我的小站 Welcome to My Little Site&url=http://yoursite.com//2017/02/21/欢迎来到我的小站-Welcome-to-My-Little-Site/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=word2vec 1&url=http://yoursite.com//2017/04/01/word2vec-1/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 Share to Weibo
             </li>
@@ -349,7 +349,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=欢迎来到我的小站 Welcome to My Little Site&url=http://yoursite.com//2017/02/21/欢迎来到我的小站-Welcome-to-My-Little-Site/index.html&via=哲的王" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=word2vec 1&url=http://yoursite.com//2017/04/01/word2vec-1/index.html&via=哲的王" target="_blank">
             <li class="mdl-menu__item">
                 Share to Twitter
             </li>
@@ -358,7 +358,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/02/21/欢迎来到我的小站-Welcome-to-My-Little-Site/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/04/01/word2vec-1/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Facebook
             </li>
@@ -367,7 +367,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2017/02/21/欢迎来到我的小站-Welcome-to-My-Little-Site/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2017/04/01/word2vec-1/index.html" target="_blank">
             <li class="mdl-menu__item">
                 Share to Google+
             </li>
@@ -391,9 +391,31 @@
                 <!-- Post Content -->
                 <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h2 id="Hellow-World-Wide-Web！"><a href="#Hellow-World-Wide-Web！" class="headerlink" title="Hellow, World Wide Web！"></a>Hellow, World Wide Web！</h2><p>大家好，这里这哲の王。欢迎来到我的小站！</p>
-<p>我在这里分享我的工作与作品。</p>
-<p>有兴趣可以看看我的 <a href="http://space.bilibili.com/16696495" target="_blank" rel="external">Bilibili</a> 和 <a href="https://github.com/" target="_blank" rel="external">Github</a></p>
+        <h1 id="word2vec，初来乍到，先谈自然语言"><a href="#word2vec，初来乍到，先谈自然语言" class="headerlink" title="word2vec，初来乍到，先谈自然语言"></a>word2vec，初来乍到，先谈自然语言</h1><p>word2vec到底怎么才能解释得即准确，又具有启发性，还能够入门友好？这个问题我想了很久。</p>
+<p>这里其实有两个点，其一是<strong>自然语言</strong>相关的东西，其二是<strong>非监督式学习</strong>的计算模型。这两个点是都可以单独讲，并且讲很多的。但是，本着做编程向教程的精神，我想尽量少地涉及理论。</p>
+<h2 id="自然语言处理"><a href="#自然语言处理" class="headerlink" title="自然语言处理"></a>自然语言处理</h2><p>自然语言很神奇。Peter Norvig说有三个我们关心自然语言的原因：</p>
+<ol>
+<li>从哲学的角度说，人类的自然语言能力是将我们区分于其他动物，并且可称之为智能的一大原因。</li>
+<li>从应用的角度，能通过自然语言与机器交互是很棒的。</li>
+<li>从学习的角度，人类大多数知识都是以自然语言的形式记录下来的。而不是用正式的代码或者数据库。</li>
+</ol>
+<p>也有一种说法说：完全的自然语言理解可以说是AI-Complete，因为它要理解world，love，and God。</p>
+<p>不管怎么说吧，自然语言理解或者处理是个很有趣并且很难的问题。</p>
+<p>那么，从计算的角度，我们一般用两个模式去处理自然语言。</p>
+<h3 id="一个是概率式的模型"><a href="#一个是概率式的模型" class="headerlink" title="一个是概率式的模型"></a>一个是概率式的模型</h3><p>什么意思呢？就是说我们试图理解每个词语的上下文之间各种词汇出现的概率。比如说，“小明是一个__”。这里要填什么呢？“人”、“好学生”、“少先队员”从句法上都是合理的。所以，概率式的模型其实是通过从数据中来学习，得出结论。如果我们用各种关于小学生的文字资料来学习，那么“好学生”和“少先队员”的可能性就高一些。</p>
+<p>这样的模型是不知道所谓名词、动词、语法这些的。如果我们的数据中，“一个”后面总是跟的“智障”。那么小明就是一个智障。不仅仅是小明，谁都是一个智障。虽然这和人们的直觉有出入。</p>
+<p>不过，如果你非要来个哲学辩驳的话，你也可以说人类对自然语言的理解也是根据生活经验来的，所以概率式模型才是本地流。语法什么的，都是基于概率来总结出来的一套规则。</p>
+<p>总之，你要记住的是，概率式模型是学习出来的，不是定义出来的。</p>
+<h3 id="逻辑式模型，或者说集合式模型"><a href="#逻辑式模型，或者说集合式模型" class="headerlink" title="逻辑式模型，或者说集合式模型"></a>逻辑式模型，或者说集合式模型</h3><p>这就截然相反。逻辑式模型中，我们预先定义出一个语言的语法、结构、词汇等等。这个定义，从计算的角度，就是一个集合。一个句子要么属于一个集合，要么不属于。</p>
+<p>回到填词游戏中的话，你填的词要么为对，要么为错。</p>
+<p>这样的预定义结构一般用树结构来表示（Tree Structure）。学过计算理论或者正式语言的同学就知道，其实正式语言就是这么定义的。比如编程语言就是正式语言。</p>
+<p>这样的模型让人容易理解。因为大家在学校学语言都是这么学的。不过这样的模型要让专家来预先定义。假如1000年前的汉语专家定义了一套汉语规则，那么今天的汉语在他们的规则下都不是汉语了。这样的模型的适应性不是很好。当然，你也可以辩论说，适应性不好只是因为规则不全面，定义更多的规则就可以了。</p>
+<p>确实更多的规则可以涵盖更多的情况，但是语言的定义也就庞大了。先不说什么简约是一种美。从计算的角度，规则的增加让计算复杂度指数级上升。这一点也是反直观的，因为一个人学习新语言或者新的写作技巧所花的时间不可能是指数级的。通常就是一个线性的时间内就可以完成。不然外语是辈子都学不会了。</p>
+<h3 id="用学外语做个比方"><a href="#用学外语做个比方" class="headerlink" title="用学外语做个比方"></a>用学外语做个比方</h3><p>我们在学校学英语就是通过逻辑式的模型在学习。老师给我们讲各种语法、词性、词组。这样虽然考试可以考高分，但是真正到用时却说不出来，成了哑巴英语。为什么呢？严格按照逻辑学出来的东西怎么就不管用了呢？从计算的角度，不是逻辑不管用，而是逻辑不实用。因为我们每说一个英语单词，就得在脑中想下一个词该是什么，怎么才符合语法等等。这个过程很花时间。所以，一句简单的话要想很久，不是因为人笨，而是因为这种指数级的搜索本来就太花时间了。</p>
+<p>那么，在环境中学英语是最好的，比如你去国外呆1年，天天耳濡目染，你自然就会了。我们管这个叫“语感”。从计算的角度来解释的话，其实是你的脑中建立了一个概率式的模型，你知道针对于一个上文，哪一种下文是最有可能的。只要你环境中的人说的英语是正常的，你说的英语也多半是正常的。但是，这也有一个问题，就是你在写正式作文的时候，多半会写得像个小学生，用词造句简陋不堪。</p>
+<p>所以，也许概率式的学习加上逻辑式的学习才是最好的。先通过语言来写出文章，再通过语言知识来检查文章的错误和哪些地方需要改进。</p>
+<p>自然语言领域可以来很多哲学辩论。之所以可以，就是因为我们不懂，我们不确定自然语言到底是如何运作的。没有人会来一场火焰如何产生的哲学辩论（可能除了古代人与无知愚昧的现代人），因为人类已经在化学与物理的层面理解了火焰了。然而我们并没有从计算与数学的层面正真地理解自然语言。也就是说，目前的一切定义都只是诠释而已，不是真正意义上的定义。</p>
+<h3 id="word2vec-是一种概率模型"><a href="#word2vec-是一种概率模型" class="headerlink" title="word2vec 是一种概率模型"></a>word2vec 是一种概率模型</h3><p>说了这么多废话，我要说的其实是，本教程会讲解的word2vec是一种概率模型。那么下一篇文章会将一个基础的非监督式学习模型。</p>
 
     
 
@@ -416,21 +438,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/02/21/TensorFlow-Deep-Learning-Tutorial/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/02/20/Questions-You-Need-to-Ask-Yourself-before-Starting-Deep-Learning/" id="post_nav-older" class="next-content">
+        <a href="/2017/04/01/velodyne/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
